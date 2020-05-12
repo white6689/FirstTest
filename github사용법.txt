@@ -21,3 +21,10 @@ github 사용법
 -git clone 주소 .: 원격저장소의 commit전체, 원격저장소 주소등을 폴더에 내려받기
 		폴더가 로컬저장소로 변경됨
 -git pull origin master(branch): 원격저장소의 새로운 commit을 로컬저장소에 갱신하기
+
+
+3. 브랜치
+-git branch: 현재 branch목록 살펴보기
+-git branch branch이름: branch이름 이라는 branch생성
+-git push --set-upstream origin branch이름: 원격저장소(origin)에도 branch이름 이라는 branch생성
+-git checkout branch이름: branch의 head를 변경
