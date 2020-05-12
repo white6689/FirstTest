@@ -28,3 +28,10 @@ github 사용법
 -git branch branch이름: branch이름 이라는 branch생성
 -git push --set-upstream origin branch이름: 원격저장소(origin)에도 branch이름 이라는 branch생성
 -git checkout branch이름: branch의 head를 변경
+
+
+4.삭제
+-git rm file이름: 원격저장소와 로컬저장소에 있는 파일을 삭제한다.
+-git rm -cached file이름: 원격저장소에 있는 파일을 삭제한다.로컬 저장소에 있는 파일은 삭제 안됌
+-git commit -m "remove": 변경사항을 commit함(메세지 꼭 적기)
+-git push: 원격저장소에도 변경사항 push!
