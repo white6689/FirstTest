@@ -1,0 +1,23 @@
+github 사용법
+
+
+
+1. 로컬저장소
+
+-git init: 로컬 저장소 만들기     
+		.git 파일 생성됨
+-git add: commit에 추가할 파일 선택하기
+-git commit: 파일의 버전만들기
+		-m "Message": commit한 파일에 메세지(설명) 입력하기
+-git log: commit목록 보기
+-git checkout: 선택한 commit으로 돌아가기
+		checkout -: 최신 commit으로 돌아가기 
+
+
+2. 원격저장소
+
+-git remote add origin 주소: 로컬저장소에 원격저장소의 주소 추가하기
+-git push origin master(branch): 로컬 저장소에 있는 commit을 원격 저장소에 넣기
+-git clone 주소 .: 원격저장소의 commit전체, 원격저장소 주소등을 폴더에 내려받기
+		폴더가 로컬저장소로 변경됨
+-git pull origin master(branch): 원격저장소의 새로운 commit을 로컬저장소에 갱신하기
