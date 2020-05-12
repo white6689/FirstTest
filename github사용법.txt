@@ -16,6 +16,7 @@ github 사용법
 
 2. 원격저장소
 
+-git remote rm origin: 기존의 원격저장소 주소 삭제하기
 -git remote add origin 주소: 로컬저장소에 원격저장소의 주소 추가하기
 -git push origin master(branch): 로컬 저장소에 있는 commit을 원격 저장소에 넣기
 -git clone 주소 .: 원격저장소의 commit전체, 원격저장소 주소등을 폴더에 내려받기
